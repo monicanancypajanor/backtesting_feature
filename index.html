@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backtesting Trading Strategy</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Backtesting Trading Strategy on Random Data</h1>
+
+    <div class="controls">
+      <button id="startBtn">Start Backtest</button>
+      <div class="results">
+        <p>Initial Balance: $10,000</p>
+        <p id="finalBalance">Final Balance: $10,000</p>
+        <p id="totalProfit">Total Profit/Loss: $0</p>
+      </div>
+    </div>
+
+    <div id="chart-container">
+      <canvas id="performanceChart"></canvas>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
